@@ -35,7 +35,7 @@ gulp.task("changelog", function () {
 Run changelog plugin
 * **version (string):** current project version
 * **user (string):** Optional. Author of the commit
-* **update (bool):** Force update
+* **update (bool):** Optional. Force update
 
 
 ## Output
