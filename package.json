@@ -1,10 +1,10 @@
 {
   "name": "gulp-changelog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp task to create and edit changelog",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cat CHANGELOG.md || echo \"# Changelog\" > CHANGELOG.md"
+    "postinstall": "cat ../../CHANGELOG.md || echo \"# Changelog\" > ../../CHANGELOG.md"
   },
   "author": "guedjm",
   "license": "ISC",
