@@ -1,4 +1,4 @@
-# gulp-changelog
+# gulp-changelogmd
 
 Gulp plugin to manage changelog file.
 

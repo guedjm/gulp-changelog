@@ -1,7 +1,7 @@
 {
-  "name": "gulp-changelog",
-  "version": "1.0.4",
-  "description": "Gulp plugin managing changelog file",
+  "name": "gulp-changelogmd",
+  "version": "1.0.5",
+  "description": "Gulp plugin managing Markdown changelog file",
   "main": "./src/index.js",
   "scripts": {
     "postinstall": "cat ../../CHANGELOG.md || echo \"# Changelog\" > ../../CHANGELOG.md",
