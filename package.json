@@ -1,12 +1,17 @@
 {
   "name": "gulp-changelog",
   "version": "1.0.3",
-  "description": "Gulp task to create and edit changelog",
-  "main": "/src/index.js",
+  "description": "Gulp plugin managing changelog file",
+  "main": "./src/index.js",
   "scripts": {
-    "postinstall": "cat ../../CHANGELOG.md || echo \"# Changelog\" > ../../CHANGELOG.md"
+    "postinstall": "cat ../../CHANGELOG.md || echo \"# Changelog\" > ../../CHANGELOG.md",
+    "test": "cd test; gulp test; cd -"
   },
-  "author": "guedjm",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guedjm/gulp-changelog.git"
+  },
+  "author": "Maxime Guedj",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1"
