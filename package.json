@@ -1,0 +1,23 @@
+{
+  "name": "gulp-changelog",
+  "version": "1.0.0",
+  "description": "Gulp task to create and edit changelog",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cat CHANGELOG.md || touch CHANGELOG.md"
+  },
+  "author": "guedjm",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gulp-util": "^3.0.7",
+    "inquirer": "^0.12.0",
+    "through2": "^2.0.1"
+  },
+  "files": [
+    "./src/index.js"
+  ]
+}
